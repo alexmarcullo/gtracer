@@ -7,6 +7,7 @@ const schema = {
     step: Joi.string().required(),
     payload: Joi.object(),
     appName: Joi.string().required(),
+    aditionalInformations: Joi.allow(),
     from: Joi.string().required()
 };
 
