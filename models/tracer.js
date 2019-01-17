@@ -2,10 +2,10 @@ const Joi = require('joi');
 
 const schema = {
     trackId: Joi.string().required(),
-    messageId: Joi.string(),
+    messageId: Joi.allow(),
     date: Joi.date().required(),
     step: Joi.string().required(),
-    payload: Joi.object(),
+    payload: Joi.allow(),
     appName: Joi.string().required(),
     aditionalInformations: Joi.allow(),
     from: Joi.string().required()
