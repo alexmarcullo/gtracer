@@ -7,7 +7,7 @@ require("appdynamics").profile({
     controllerPort: 443, 
 
     // If SSL, be sure to enable the next line
-    controllerSslEnabled: false,
+    controllerSslEnabled: true,
     accountName: 'cloud2019011711580214',
     accountAccessKey: 'nbal2rcil57e',
     applicationName: '.NET',
