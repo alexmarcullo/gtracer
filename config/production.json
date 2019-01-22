@@ -3,6 +3,6 @@
         "port":8080
     },
     "elasticsearch":{
-        "host":"https://brg-elastic.2d1f.gsat-corp.openshiftapps.com"
+        "host":"http://localhost:9200"
     }
 }
